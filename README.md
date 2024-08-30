@@ -246,3 +246,11 @@ json
 </details>
 
 ### 相关截图
+![image](https://github.com/user-attachments/assets/f9c9356f-3e8f-489c-a25e-029766f5351c)
+![image](https://github.com/user-attachments/assets/fea23358-b3a0-402b-a505-2daa0c0d8a4e)
+![image](https://github.com/user-attachments/assets/8180d018-388f-414e-bb76-f5ddf0fc12ab)
+![image](https://github.com/user-attachments/assets/246bc635-1c42-4cde-81f1-5827666057aa)
+
+### 已知问题
+由于使用 LLaMA3.1:8B 模型从文本中提取关系，每次提取的关系数量和类型可能会有所不同。如果需要更精准的关系提取，可以尝试调整 prompt 或选择更适合的模型进行优化和调试。
+
