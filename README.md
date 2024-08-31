@@ -6,7 +6,7 @@ Text2Neo4j 是一个遍历文档、从文本中提取关系并将其保存到 Ne
 
 ### 功能特性
 - 目录遍历： 自动遍历目录以定位并读取文本文件。
-- 关系提取： 利用开元 AI 模型从文本中提取有意义的关系。
+- 关系提取： 利用开源 AI 模型从文本中提取有意义的关系。
 - Neo4j 集成： 将提取的关系直接写入 Neo4j 数据库，创建一个可查询的知识图谱。
 
 
@@ -20,7 +20,12 @@ conda create -n test2neo4j python=3.10.13 -y
 pip install -r requirements.txt
 ```
 
-### 下载文档
+## 复制并配置[parses/configs.py](parses/configs.py)
+```shell
+cp parses/configs.demo.py parses/configs.py
+```
+
+### 运行
 ```shell
 python parses/main.py
 ```
